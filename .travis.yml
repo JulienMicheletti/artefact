@@ -1,4 +1,4 @@
 language: java
-
+script: mvn clean verify
 after_deploy:
   - echo "done deploying"
